@@ -11,7 +11,7 @@ public class MapMain {
         map1.put(2,"data2");
         map1.put(1,"data1");
         System.out.println("map1 = " + map1);
-        
+
         //정렬시켜줌.
         //정렬기준은 Comparator를 사용해서 직접구현 가능
         Map<Integer,String> map2 = new ConcurrentSkipListMap<>();
